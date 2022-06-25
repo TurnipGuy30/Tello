@@ -39,7 +39,7 @@ When you're ready to go, press Enter to continue.
 ''')
 
 # connect to drone
-t.connect()
+t.connect(wait_for_state=True)
 i.sleep(1)
 
 # input loop, '[' to end
